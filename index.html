@@ -25,7 +25,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -35,9 +34,6 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      <!-- Uncomment below if you prefer to use an text logo -->
-      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
-
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -57,11 +53,11 @@
     <div class="container">
       <div class="hero-content">
         <h1>I'm <span class="typed" data-typed-items="Mohamed Adel, Software Engineer, Web Developer"></span></h1>
-        <p>Software Engineer, Web Developer</p>
+        <p style="font-size: x-large;">Software Engineer, Web Developer</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="https://github.com/MohamedASAK"><i class="bi bi-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/mohamedasak/"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://github.com/MohamedASAK"><i class="bi bi-github" style="font-size: xx-large;"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/mohamedasak/"><i class="bi bi-linkedin" style="font-size: xx-large;"></i></a></li>
         </ul>
       </div>
     </div>
@@ -85,8 +81,9 @@
           <div class="col-lg-7">
             <div class="about-descr">
 
-              <p class="p-heading text-black-50">Hello everyone, my name is Mohamed, a student in the Faculty of Computer Science and Artificial Intelligence. </p>
-              <p class="separator text-black-50">Software Engineer | Web Developer.</p>
+              <p class="p-heading text-black">Hello everyone, my name is Mohamed, a student in the Faculty of Computer Science and Artificial Intelligence. </p>
+              <p class="p-heading text-black">Interested in learning artificial intelligence.</p>
+              <p class="p-heading text-black">Software Engineer | Web Developer.</p>
 
             </div>
 
@@ -101,12 +98,11 @@
 
         <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
               <div class="services-block">
                 <i class="bi bi-code-slash"></i>
                   <span>Front-End</span>
-                <p class="separator">HTML, CSS, JavaScript Bootstrap, Jquery, TypeScript, Angular</p>
+                <p class="separator text-black">HTML, CSS, JavaScript Bootstrap, Jquery, TypeScript, Angular</p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -114,7 +110,7 @@
               <div class="services-block">
                 <i class="bi bi-database-gear"></i>
                   <span>Back-End</span>
-                <p class="separator">SQL, PHP, Laravel</p>
+                <p class="separator text-black">SQL, PHP, Laravel</p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -122,7 +118,15 @@
               <div class="services-block">
                 <i class="bi bi-display"></i>
                   <span>Full-Stack</span>
-                <p class="separator">Front-End And Back-End</p>
+                <p class="separator text-black">Front-End And Back-End</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-robot"></i>  
+                  <span>Artificial Intelligence</span>
+                <p class="separator text-black">Soon...</p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -144,25 +148,33 @@
       </div>
 
       <div class="container">
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="project-flters">
-              <li data-filter="*" class="filter-active">All</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="row project-container">
-
-
           <div class="col-lg-12 project-item filter-app">
-            <img src="assets/img/git-hub.png" class="text-center img-fluid" alt="">
-            <div class="project-info">
-              <h4>My Git Hub Account</h4>
-              <p>All Of My Projects Uploaded On It Check Now</p>
-              <a href="https://github.com/MohamedASAK" data-gallery="projectGallery" class="project-lightbox preview-link" title="Git Hub"><i class="bx bx-plus"></i></a>
+            <div class="projects-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="projects-block m-5">             
+                    <img src="assets/img/git-hub.png" class="text-center img-fluid" alt="">
+                    <div class="project-info pt-1" style="padding: 10px;">
+                      <h4>My Git Hub Account</h4>
+                      <a href="https://github.com/MohamedASAK" class="project-lightbox preview-link" title="Git Hub"><i class="bx bx-plus"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+                <div class="swiper-slide">
+                  <div class="projects-block m-5">             
+                    <img src="assets/img/kaggle.png" class="text-center img-fluid" alt="">
+                    <div class="project-info">
+                      <h4>My Kaggle Account</h4>
+                      <a href="https://www.kaggle.com/mohamedasak" class="project-lightbox preview-link" title="Kaggle"><i class="bx bx-plus"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+              </div>
+              
+              <div class="swiper-pagination"></div>
             </div>
+
           </div>
 
         </div>
@@ -182,8 +194,9 @@
 
                 <h2 class="mb-30">GET IN TOUCH</h2>
 
-                <ul class="contact-details">
-                  <li><span>mohamedasak@gmail.com</span></li>
+                <ul class="contact-details text-black">
+                  <li>Email: <span>mohamedasak@gmail.com</span></li>
+                  <li>LinkedIn: <a class="link-primary" href="https://www.linkedin.com/in/mohamedasak/">My Profile</a></li>
                 </ul>
 
               </div>
@@ -198,20 +211,16 @@
 
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
-    <div class="container">
+    <div class="container text-black">
       <div class="socials-media text-center">
-
         <ul class="list-unstyled">
           <li><a href="https://github.com/MohamedASAK"><i class="bi bi-github"></i></a></li>
           <li><a href="https://www.linkedin.com/in/mohamedasak/"><i class="bi bi-linkedin"></i></a></li>
         </ul>
-
       </div>
-
-      <p>&copy; Copyrights Mohamed Adel. All rights reserved.</p>
-
+      <p class="text-black">&copy; Copyrights Mohamed Adel. All rights reserved.</p>
       <div class="credits">
-        Designed by <a href="https://github.com/MohamedASAK">Mohamed Adel</a>
+        Designed by <a class="link-primary" href="https://github.com/MohamedASAK">Mohamed Adel</a>
       </div>
 
     </div>

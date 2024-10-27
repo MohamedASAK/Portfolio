@@ -739,20 +739,10 @@ p {
   }
 }
 
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
-/*  Navbar fixd page */
-.subpage-nav {
-  display: block !important;
-}
-
 /*-----------------------------------------------------------------------------------*/
 /*  /* Single page */
 /*-----------------------------------------------------------------------------------*/
-#journal-blog {
-  padding-top: 140px;
-}
+
 
 /* main content */
 .main-content {
@@ -773,21 +763,6 @@ p {
   background: #fff none repeat scroll 0 0;
   display: inline-block;
   width: 100%;
-}
-
-.journal-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-txt h4 a:hover {
-  color: #292457;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 .post-meta ul li {
@@ -995,11 +970,6 @@ blockquote {
     display: inline-block;
   }
 
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -1078,11 +1048,6 @@ blockquote {
     display: inline-block;
   }
 
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -1096,6 +1061,7 @@ blockquote {
     display: inline-block;
   }
 }
+
 
 /** Width between 600px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1161,10 +1127,6 @@ blockquote {
     display: inline-block;
   }
 
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
 
   /* Contact */
   .contact-contact {
@@ -1243,11 +1205,6 @@ blockquote {
     margin: 20px;
   }
 
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -1323,11 +1280,6 @@ blockquote {
   #project .project-list .nav li {
     float: none;
     margin: 20px;
-  }
-
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
   }
 
   /* Contact */
